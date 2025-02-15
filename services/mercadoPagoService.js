@@ -1,5 +1,5 @@
 import { pool } from '../lib/db.js';
-import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs";
 import { v4 as uuidv4 } from "uuid"; // Install with `npm install uuid`
 import { Payment, MercadoPagoConfig } from 'mercadopago';
 import axios from 'axios'

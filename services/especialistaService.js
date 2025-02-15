@@ -1,4 +1,4 @@
-import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs";
 import { pool } from '../lib/db.js';
 
 async function registrarEspecialista(fullName, email, password, phone, state, specialty, cnpj, professionalId) {
